@@ -131,7 +131,7 @@ export default function GuidePage() {
         </ol>
         <div className="final-mission-images">
           <img src="/final-mission-reveal.png" alt="최종 보스의 정체를 밝히는 최종 미션 카드" />
-          <img src="/habit-monster-card.png" alt="여섯 가지 습관괴물과 중앙 거울이 있는 최종 보스 카드" />
+          <img src="https://greenloop-missions.beecorium.chatgpt.site/habit-monster-card.png" alt="여섯 가지 습관괴물과 중앙 거울이 있는 최종 보스 카드" />
         </div>
       </section>
 
