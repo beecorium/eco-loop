@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className="world-video-frame">
           <video controls playsInline preload="metadata" poster="/video/eco-loop-intro-poster.jpg" aria-label="ECO LOOP 세계관 소개영상">
-            <source src="/video/eco-loop-intro.mp4" type="video/mp4" />
+            <source src="https://greenloop-missions.beecorium.chatgpt.site/video/eco-loop-intro.mp4" type="video/mp4" />
             브라우저가 동영상 재생을 지원하지 않습니다.
           </video>
         </div>
