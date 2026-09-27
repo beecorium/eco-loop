@@ -5,9 +5,9 @@ import SiteHeader from "../components/SiteHeader";
 export const metadata: Metadata = { title: "자료실", description: "ECO LOOP 수업 및 보드게임 출력 자료를 확인합니다." };
 
 const resources = [
-  { type: "TEACHER GUIDE", title: "수업지도안", description: "수업 흐름, 난이도 조절, 최종 습관괴물, 평가와 유의사항을 담은 교사용 지도안입니다.", status: "PDF 다운로드", href: "/downloads/eco-loop-lesson-plan.pdf" },
-  { type: "MISSION CARD", title: "대형 스크린용 미션카드 PDF", description: "26개 미션과 최종 습관괴물 활동을 수업 화면에서 활용할 수 있도록 구성한 자료입니다.", status: "PDF 다운로드", href: "/downloads/eco-loop-mission-cards.pdf" },
-  { type: "PRINTABLE PDF", title: "보드게임 출력용 PDF", description: "ECO LOOP 카드와 게임 구성물을 인쇄할 수 있는 출력 파일입니다. 분실하거나 마모된 카드는 다운로드 받아 사용해주세요. 보드게임을 오래 사용하실 수 있습니다. 아래 양면인쇄 팁은 일반적인 내용으로 프린트 사양에 따라 다르게 적용될 수 있습니다.", status: "PDF 다운로드", href: "/downloads/eco-loop-boardgame-print.pdf" },
+  { type: "TEACHER GUIDE", title: "수업지도안", description: "수업 흐름, 난이도 조절, 최종 습관괴물, 평가와 유의사항을 담은 교사용 지도안입니다.", status: "PDF 다운로드", href: "https://greenloop-missions.beecorium.chatgpt.site/downloads/eco-loop-lesson-plan.pdf" },
+  { type: "MISSION CARD", title: "대형 스크린용 미션카드 PDF", description: "26개 미션과 최종 습관괴물 활동을 수업 화면에서 활용할 수 있도록 구성한 자료입니다.", status: "PDF 다운로드", href: "https://greenloop-missions.beecorium.chatgpt.site/downloads/eco-loop-mission-cards.pdf" },
+  { type: "PRINTABLE PDF", title: "보드게임 출력용 PDF", description: "ECO LOOP 카드와 게임 구성물을 인쇄할 수 있는 출력 파일입니다. 분실하거나 마모된 카드는 다운로드 받아 사용해주세요. 보드게임을 오래 사용하실 수 있습니다. 아래 양면인쇄 팁은 일반적인 내용으로 프린트 사양에 따라 다르게 적용될 수 있습니다.", status: "PDF 다운로드", href: "https://greenloop-missions.beecorium.chatgpt.site/downloads/eco-loop-boardgame-print.pdf" },
 ];
 
 export default function ResourcesPage() {
