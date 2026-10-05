@@ -454,11 +454,6 @@ export default function BetaEventPage() {
               </span>
             </div>
           </div>
-
-          <div className="cta-row">
-            <a className="btn primary" href="#join">지금 베타테스트 참여하기</a>
-            <a className="btn secondary" href="#about">이벤트 자세히 보기</a>
-          </div>
         </div>
 
         <div className="hero-card" aria-label="에코루프 베타테스트 핵심 흐름">
@@ -538,7 +533,7 @@ export default function BetaEventPage() {
           <div className="step">
             <div className="no">STEP 02</div>
             <h3>직접 플레이</h3>
-            <p>미션카드와 순환 아이템을 살펴보고 가능한 범위에서 실제 플레이해 봅니다.</p>
+            <p>교구 파일을 다운로드해 출력한 뒤, 안내선에 따라 간단히 잘라 준비해 주세요. 준비한 미션카드와 순환 아이템으로 직접 플레이해 봅니다.</p>
           </div>
           <div className="step">
             <div className="no">STEP 03</div>
