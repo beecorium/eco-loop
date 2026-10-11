@@ -33,14 +33,23 @@ export default function GuidePage() {
         <article><span>ITEM</span><strong>아이템카드 Ⅰ·Ⅱ</strong><p>개인 또는 팀별 한 세트</p></article>
       </section>
 
-      <section className="guide-intro-video">
+      <section className="guide-intro-video" aria-labelledby="guide-video-title">
         <div>
-          <p className="eyebrow">01 · WORLD FILM</p>
-          <h2>세계관 영상으로<br />루프링커를 깨워 주세요</h2>
+          <p className="eyebrow">01 · VIDEO GUIDE</p>
+          <h2 id="guide-video-title">영상으로 먼저 보는<br />ECO LOOP 이용가이드</h2>
         </div>
-        <div>
-          <p>게임 전 세계관 영상을 함께 보면 도시의 자원괴물이 나타난 이유와 루프링커의 역할을 자연스럽게 이해할 수 있습니다. 영상을 본 참여자는 도시의 순환을 다시 연결하는 루프링커가 됩니다.</p>
-          <a className="inline-link" href="/#world-video-title">세계관 영상 보기 ↗</a>
+        <div className="guide-video-content">
+          <div className="guide-video-frame">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/ZguKK-fzyRA?rel=0"
+              title="ECO LOOP 교구 이용가이드 영상"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+          <p>교구 준비부터 미션 진행, 점수 계산과 최종 공동 미션까지 전체 운영 흐름을 영상으로 확인하세요. 학교 수업은 물론 시민 워크숍과 환경교육 프로그램의 진행자도 바로 활용할 수 있습니다.</p>
+          <a className="inline-link" href="/#world-video-title">세계관 영상도 함께 보기 ↗</a>
         </div>
       </section>
 
